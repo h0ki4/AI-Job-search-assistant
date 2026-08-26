@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Local LLM handoff and project notes
+PROJECT_STATUS.md
+
+# SQLite runtime files
+data/*.db
+data/*.db-*
+data/*.sqlite
+data/*.sqlite3
+
+# IDE and operating system files
+.idea/
+.DS_Store
+
+# Test and coverage artifacts (for later stages)
+.pytest_cache/
+.coverage
+htmlcov/
