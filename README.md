@@ -21,9 +21,6 @@ have been implemented yet.
 - a prepared minimal Docker image;
 - an agreed `Vacancy` data contract, including source links and location data.
 
-See [PROJECT_STATUS.md](PROJECT_STATUS.md) for the current stage, verified
-checks, decisions, and the next implementation task.
-
 ## Architecture
 
 ```text
@@ -73,7 +70,6 @@ ai-job-search-assistant/
 ├── .env.example
 ├── .gitignore
 ├── Dockerfile
-├── PROJECT_STATUS.md
 ├── README.md
 └── requirements.txt
 ```
